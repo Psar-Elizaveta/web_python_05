@@ -26,6 +26,7 @@ async def main(num_days):
 
     if num_days > 10:
         num_days = 10
+        print('You can see only 10 days')
 
     results = []
     for i in range(1, num_days + 1):
